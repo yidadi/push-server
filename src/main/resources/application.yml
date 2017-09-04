@@ -3,3 +3,8 @@ server:
 com:
   even:
     mqtt:
+      userName: guest
+      passWord: guest
+      host: tcp://192.168.36.102:1883 #采用集群后这选择用master作为数据的订阅点
+    kafka:
+      servers: 127.0.0.1:9002,127.0.0.1:9003,127.0.0.1:9004

@@ -12,6 +12,9 @@ repositories {
 }
 
 dependencies {
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.38'
+
+    compile group: 'org.apache.kafka', name: 'kafka-clients', version: '0.11.0.0'
     compile group: 'org.eclipse.paho', name: 'org.eclipse.paho.client.mqttv3', version: '1.2.0'
     compile("org.springframework.boot:spring-boot-starter-web:1.5.6.RELEASE")
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-redis', version: '1.4.7.RELEASE'
