@@ -1,0 +1,5 @@
+server:
+  port: 9001
+com:
+  even:
+    mqtt:
